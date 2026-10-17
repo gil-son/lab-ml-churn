@@ -14,3 +14,20 @@ build/
 
 # Aprovação/promoção/rollback simulados localmente durante desenvolvimento.
 approval.json
+
+# Ambiente virtual e caches de ferramentas.
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Spark/Delta local (warehouse, metastore Derby, logs).
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Segredos locais -- nunca versionar.
+.env

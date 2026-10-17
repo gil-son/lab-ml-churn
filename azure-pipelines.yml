@@ -26,7 +26,7 @@ resources:
     - repository: mlops
       type: git
       name: <AZURE_DEVOPS_PROJECT>/mlops-platform
-      ref: refs/tags/v1.0.0 # versão do template fixada por tag -- nunca refs/heads/main
+      ref: refs/tags/v1.0.0-lab # versão do template fixada por tag -- nunca refs/heads/main
 
 extends:
   template: pipelines/templates/ml-project-pipeline.yml@mlops
